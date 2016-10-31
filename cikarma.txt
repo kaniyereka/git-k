@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int a ,b,cikarma;
+int main()
+{
+printf(“a sayisini giriniz=”);
+scanf(“%d” , &a);
+printf(“b sayisini giriniz=”);
+scanf(“%d” , &b);
+cikarma=a-b;
+printf(“____________________________\n”);
+printf(“a ve b sayilarinin cýkarmasi = %d\n”, cikarma);
+
+
+
+return 0;
+
+}
